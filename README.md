@@ -1,6 +1,6 @@
 # TextDebugger
 
-a text base debugger to analyse machine level code
+University project to produce a command-line debugger to analyse machine level code
 
 Input: .mem files only <br/>    
 
