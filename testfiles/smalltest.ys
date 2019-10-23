@@ -1,0 +1,18 @@
+ # testing out some basic instructions
+ irmovq  stack, %rsp
+ rrmovq %rsp, %r8
+ call $move 
+ irmovq $0x456, %rax
+ rrmovq %rax, %rdx
+ halt
+ 
+move:
+  irmovq  $0xabcd, %rax    # PC = 0xa
+  ret
+  
+  
+  
+.pos 0x100  
+stack:
+
+ 
